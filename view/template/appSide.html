@@ -1,0 +1,74 @@
+<ion-side-menu side="left">
+    <!--底部-->
+    <ion-tabs class=" tabs-icon-left">
+        <ion-tab title="功能" icon-on="ion-ios-briefcase" icon-off="ion-ios-briefcase-outline">
+            <ion-content class="content">
+                <div class="item item-image">
+                    <img src="../img/paris.jpg" alt="">
+                </div>
+                <ion-list >
+                    <ion-item class="item item-icon-left" href="#">
+                        <i class="icon ion-ios-bookmarks "></i>
+                        我的钱包
+                    </ion-item>
+                    <ion-item class="item item-icon-left" href="#">
+                        <i class="icon ion-ios-paw calm"></i>
+                        个性装扮
+                    </ion-item>
+                    <ion-item class="item item-icon-left" href="#">
+                        <i class="icon ion-ios-flame assertive"></i>
+                        我的收藏
+                    </ion-item>
+                    <ion-item class="item item-icon-left" href="#">
+                        <i class="icon ion-android-folder positive"></i>
+                        我的文件
+                    </ion-item>
+                </ion-list>
+            </ion-content>
+        </ion-tab>
+
+        <ion-tab title="设置" icon-on="ion-ios-cog " icon-off="ion-ios-cog-outline">
+            <ion-header-bar class="bar bar-header bar-dark">
+                <h1 class="title">设置</h1>
+                <a class="button button-clear ionc ion-gear-b"></a>
+            </ion-header-bar>
+            <ion-content class="has-header">
+                <ion-list>
+                    <ion-item class="item-divider"></ion-item>
+                    <ion-item>
+                        新消息提醒
+                    </ion-item>
+                    <ion-item>
+                        勿扰模式
+                    </ion-item>
+                    <ion-item>
+                        聊天
+                    </ion-item>
+                    <ion-item>
+                        隐私
+                    </ion-item>
+                    <ion-item>
+                        通用
+                    </ion-item>
+                    <ion-item class="item-icon-right" >
+                        <i class="icon ion-ios-unlocked calm" style="font-size: 14px;">已保护</i>
+                        账号与安全
+                    </ion-item>
+                    <ion-item class="item-divider">
+                    </ion-item>
+                    <ion-item>
+                        关于 新闻小助手
+                    </ion-item>
+                    <ion-item>
+                        帮助与反馈
+                    </ion-item>
+                    <ion-item  ng-click="quit()">
+                        退出
+                    </ion-item>
+                </ion-list>
+            </ion-content>
+        </ion-tab>
+    </ion-tabs>
+    <!--底部-->
+</ion-side-menu>
+

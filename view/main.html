@@ -1,0 +1,31 @@
+<ion-side-menu-content>
+    <!--主页内容-->
+
+    <!--头部-->
+    <ion-header-bar class="bar bar-header bar-dark">
+        <h1 class="title">新闻小助手</h1>
+        <a class="button button-clear icon ion-ios-plus-empty" ng-click="show()"></a>
+    </ion-header-bar>
+    <div app-head></div>
+    <!--头部-->
+    <!--内容-->
+    <ion-content class="content has-subheader">
+        <ion-refresher pulling-text="刷新" on-refresh="refresh()"></ion-refresher>
+        <div app-content></div>
+    </ion-content>
+    <!--内容-->
+    <!--底部-->
+    <div app-footer></div>
+    <!--底部-->
+
+<!--主页内容-->
+</ion-side-menu-content>
+
+
+
+
+
+
+
+
+
